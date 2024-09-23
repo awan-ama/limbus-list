@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.limbuslist.MainActivity">
+    <item
+        android:id="@+id/about_page"
+        android:orderInCategory="100"
+        android:title="@string/about_page"
+        android:icon="@drawable/about_icon"
+        app:showAsAction="ifRoom" />
+</menu>

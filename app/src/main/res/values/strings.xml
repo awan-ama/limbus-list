@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Limbus List</string>
+    <string name="about_page">About</string>
+
+    <!-- Navigation strings -->
+    <string name="list_page_label">Limbus List</string>
+    <string name="about_page_label">About Me</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string-array name="sinners_name">
+        <item>Yi Sang</item>
+        <item>Faust</item>
+        <item>Don Quixote</item>
+        <item>Ryoshu</item>
+        <item>Meursault</item>
+        <item>Hong Lu</item>
+        <item>Heathcliff</item>
+        <item>Ishmael</item>
+        <item>Rodya</item>
+        <item>Sinclair</item>
+        <item>Outis</item>
+        <item>Gregor</item>
+    </string-array>
+
+    <string-array name="sinners_quote">
+        <item>&quot;Have you heard of the taxidermied genius?&quot;</item>
+        <item>&quot;Man errs, as long as he strives.&quot;</item>
+        <item>&quot;To reach the unreachable star!&quot;</item>
+        <item>&quot;Other lesser painters are such mediocrities, they have no way to recognize the beauty that lies in ugliness.&quot;</item>
+        <item>&quot;Today, I killed mother. Or maybe it was yesterday.&quot;</item>
+        <item>&quot;Jade has its flaws, and life its vicissitudes.&quot;</item>
+        <item>&quot;I have not broken your heart - YOU have; and in breaking it, you have broken mine.&quot;</item>
+        <item>&quot;If you please, call me Ishmael.&quot;</item>
+        <item>&quot;If she could forget everything, and begin afresh.&quot;</item>
+        <item>&quot;Meanwhile, the world of evil began there already, right in the middle of our house.&quot;</item>
+        <item>&quot;I am... nothing at all.&quot;</item>
+        <item>&quot;As I awoke from unsettling dreams, I had transformed into some hideous pest.&quot;</item>
+    </string-array>
+
+    <integer-array name="sinners_photo">
+        <item>@drawable/yisang_wide</item>
+        <item>@drawable/faust_wide</item>
+        <item>@drawable/donquixote_wide</item>
+        <item>@drawable/ryoshu_wide</item>
+        <item>@drawable/meursault_wide</item>
+        <item>@drawable/honglu_wide</item>
+        <item>@drawable/heathcliff_wide</item>
+        <item>@drawable/ishmael_wide</item>
+        <item>@drawable/rodion_wide</item>
+        <item>@drawable/sinclair_wide</item>
+        <item>@drawable/outis_wide</item>
+        <item>@drawable/gregor_wide</item>
+    </integer-array>
+</resources>
