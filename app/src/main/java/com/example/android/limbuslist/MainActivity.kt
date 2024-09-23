@@ -1,16 +1,13 @@
 package com.example.android.limbuslist
 
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
+import android.view.Menu
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
-import android.view.Menu
-import android.view.MenuItem
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.example.android.limbuslist.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -35,12 +32,12 @@ class MainActivity : AppCompatActivity() {
             when (destination.id) {
                 R.id.SecondFragment -> aboutItemMenu?.isVisible = false
                 R.id.FirstFragment -> aboutItemMenu?.isVisible = true
+                R.id.DetailFragment -> aboutItemMenu?.isVisible = false
             }
         }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.menu_main, menu)
         aboutItemMenu = menu.findItem(R.id.about_page)
         return true
@@ -53,6 +50,7 @@ class MainActivity : AppCompatActivity() {
                 navController.navigate(R.id.action_FirstFragment_to_SecondFragment)
                 true
             }
+
             else -> super.onOptionsItemSelected(item)
         }
     }

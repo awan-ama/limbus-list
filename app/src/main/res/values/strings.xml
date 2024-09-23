@@ -1,10 +1,13 @@
 <resources>
     <string name="app_name">Limbus List</string>
     <string name="about_page">About</string>
+    <string name="user_name">Muhammad Raka Azwar</string>
+    <string name="user_email">a247b4ky3019@bangkit.academy</string>
 
     <!-- Navigation strings -->
     <string name="list_page_label">Limbus List</string>
     <string name="about_page_label">About Me</string>
+    <string name="detail_page_label">Sinner\'s Name</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
@@ -24,18 +27,18 @@
     </string-array>
 
     <string-array name="sinners_quote">
-        <item>&quot;Have you heard of the taxidermied genius?&quot;</item>
-        <item>&quot;Man errs, as long as he strives.&quot;</item>
-        <item>&quot;To reach the unreachable star!&quot;</item>
-        <item>&quot;Other lesser painters are such mediocrities, they have no way to recognize the beauty that lies in ugliness.&quot;</item>
-        <item>&quot;Today, I killed mother. Or maybe it was yesterday.&quot;</item>
-        <item>&quot;Jade has its flaws, and life its vicissitudes.&quot;</item>
-        <item>&quot;I have not broken your heart - YOU have; and in breaking it, you have broken mine.&quot;</item>
-        <item>&quot;If you please, call me Ishmael.&quot;</item>
-        <item>&quot;If she could forget everything, and begin afresh.&quot;</item>
-        <item>&quot;Meanwhile, the world of evil began there already, right in the middle of our house.&quot;</item>
-        <item>&quot;I am... nothing at all.&quot;</item>
-        <item>&quot;As I awoke from unsettling dreams, I had transformed into some hideous pest.&quot;</item>
+        <item><i>&quot;Have you heard of the taxidermied genius?&quot;</i></item>
+        <item><i>&quot;Man errs, as long as he strives.&quot;</i></item>
+        <item><i>&quot;To reach the unreachable star!&quot;</i></item>
+        <item><i>&quot;Other lesser painters are such mediocrities, they have no way to recognize the beauty that lies in ugliness.&quot;</i></item>
+        <item><i>&quot;Today, I killed mother. Or maybe it was yesterday.&quot;</i></item>
+        <item><i>&quot;Jade has its flaws, and life its vicissitudes.&quot;</i></item>
+        <item><i>&quot;I have not broken your heart - YOU have; and in breaking it, you have broken mine.&quot;</i></item>
+        <item><i>&quot;If you please, call me Ishmael.&quot;</i></item>
+        <item><i>&quot;If she could forget everything, and begin afresh.&quot;</i></item>
+        <item><i>&quot;Meanwhile, the world of evil began there already, right in the middle of our house.&quot;</i></item>
+        <item><i>&quot;I am... nothing at all.&quot;</i></item>
+        <item><i>&quot;As I awoke from unsettling dreams, I had transformed into some hideous pest.&quot;</i></item>
     </string-array>
 
     <integer-array name="sinners_photo">
@@ -52,4 +55,5 @@
         <item>@drawable/outis_wide</item>
         <item>@drawable/gregor_wide</item>
     </integer-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

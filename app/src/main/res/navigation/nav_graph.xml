@@ -7,22 +7,34 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.example.android.limbuslist.FirstFragment"
+        android:name="com.example.android.limbuslist.ListFragment"
         android:label="@string/list_page_label"
-        tools:layout="@layout/fragment_first">
+        tools:layout="@layout/fragment_list">
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_DetailFragment"
+            app:destination="@id/DetailFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.example.android.limbuslist.SecondFragment"
+        android:name="com.example.android.limbuslist.AboutFragment"
         android:label="@string/about_page_label"
-        tools:layout="@layout/fragment_second">
+        tools:layout="@layout/fragment_about">
 
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/DetailFragment"
+        android:name="com.example.android.limbuslist.DetailFragment"
+        android:label="@string/detail_page_label"
+        tools:layout="@layout/fragment_detail">
     </fragment>
 </navigation>
