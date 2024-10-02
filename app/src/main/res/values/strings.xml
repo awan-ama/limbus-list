@@ -7,7 +7,7 @@
     <!-- Navigation strings -->
     <string name="list_page_label">Limbus List</string>
     <string name="about_page_label">About Me</string>
-    <string name="detail_page_label">Sinner\'s Name</string>
+    <string name="detail_page_label">Detail</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
@@ -40,6 +40,90 @@
         <item><i>&quot;I am... nothing at all.&quot;</i></item>
         <item><i>&quot;As I awoke from unsettling dreams, I had transformed into some hideous pest.&quot;</i></item>
     </string-array>
+
+<!--    <string-array name="sinners_assessment">-->
+<!--        <item>Formerly the youngest chief researcher at the [REDACTED] Wing, this sinner possesses-->
+<!--            higher intelligence compared to most others. We estimate that everyday conversation with-->
+<!--            this sinner will prove difficult for managers selected by our current screening process.-->
+<!--            Avoiding communication altogether will pose a risk on its own, however. If the sinner-->
+<!--            remains silent for a long time, that means he is currently processing a line of-->
+<!--            deliberate thought; we recommend waiting patiently for him.</item>-->
+<!--        <item>The sinner who developed the engine of Mephistopheles, the bus operated by Limbus-->
+<!--            Company. She claims that there is no one in the City who could rival her library of-->
+<!--            knowledge and wisdom, and she isn\'t necessarily wrong. You might find her high and-->
+<!--            mighty attitude when she allows you to converse with her displeasing, but as seen with-->
+<!--            how she treats everyone with subtle gestures of arrogance, there is no hope of her-->
+<!--            parting with it, ever. We recommend simply nodding once and getting over it. Even though-->
+<!--            she has an unparalleled genius, we can\'t quite figure out how to use this one. Perhaps-->
+<!--            you could be the one to find out?</item>-->
+<!--        <item>There is no sinner that can outmatch this one\'s level of passion. An avid aficionada-->
+<!--            of all things Fixer, she adorns herself with a variety of Fixer-related merchandise.-->
+<!--            They won\'t affect her performance in combat one way or another, so there is no need for-->
+<!--            you to restrict her from keeping her decorations. She is deeply immersed in the role of-->
+<!--            a righteous Fixer, hence the exaggerated mannerisms akin to those of an actor.-->
+<!--            (Has such a thing ever existed, really?)-->
+<!--            It\'s advised to play along with her for a smooth mission.</item>-->
+<!--        <item>As they say, every person has their own creed—and it\'s only right to respect it as the-->
+<!--            Executive Manager. But with some creeds, you will have difficulty in even simply-->
+<!--            pretending to sympathize. You will have noticed that the sinner in question is a silent-->
+<!--            chain-smoker whose eyes shine with a euphoric gleam only during battle. She believes-->
+<!--            that senselessly destroying the enemy\'s heads is an uncultured act and a step backward-->
+<!--            for art. If you are at your wit\'s end, please press the red button-->
+<!--            included in your welcome kit.</item>-->
+<!--        <item>Wants clear and concise commands, requiring no judgement on his part.</item>-->
+<!--        <item>A sinner who had lived an affluent life before becoming our company\'s asset. As such,-->
+<!--            he has a certain admiration for a free life; but occasionally, he may make ignorant and-->
+<!--            unsavory questions in regards to the food cooked by a certain other sinner or other-->
+<!--            aspects of the low-lives\' lowly culture. This can cause much irritation for the other-->
+<!--            sinners. However, it is important to note that no sarcastic undertones are contained in-->
+<!--            his curiosity-driven inquiries, so it is ill-advised to let them get-->
+<!--            physical over it.</item>-->
+<!--        <item>This sinner prefers to take action rather than wait for logic to dictate his course.-->
+<!--            His thoughts and feelings are blatantly visible in his demeanor, and he has no intention-->
+<!--            of hiding them; his brashness may cause headaches (or physical injury leading to a-->
+<!--            headache) in the process of forming a relationship. Please do note that this is not an-->
+<!--            indication of serious damage to the sinner\'s thought process. If his fit of rage-->
+<!--            persists, please contact the human resources department. Once you realize that he is the-->
+<!--            type that tends to be simple-minded, you\'ll have an easier time handling him.</item>-->
+<!--        <item>You may be disheartened by the defective state of many of your sinners, but do not-->
+<!--            worry; this sinner is one of the few who can carry out most missions without much-->
+<!--            complaint. She is likely to make reasonable judgements, so it is a good idea to start-->
+<!--            conversations while looking her way if you\'re seeking sound advice. However, you mustn\'t-->
+<!--            forget: this sinner has survived an absurd voyage in a far and wide body of water. Her-->
+<!--            patience may run deep, but once you take a wrong turn with her,-->
+<!--            it will be a difficult task to regain her trust.</item>-->
+<!--        <item>The unfortunate traits of being Backstreets-born are apparent in this sinner. She-->
+<!--            loves money, gambling, and betting—so it is advised to pay close attention to her as the-->
+<!--            manager. She tends to deflect orders with an unimpressive wink or a silly joke; we-->
+<!--            recommend taking a stern stance at times to remind her that you are her superior. Her-->
+<!--            mood may be down at irregular intervals. There is nothing you can do to aid her in that-->
+<!--            state, so we recommend waiting for it to pass.</item>-->
+<!--        <item>Even with the volatile nature of human growth around his age taken into consideration,-->
+<!--            this sinner seems to get particularly startled or frown when spoken to. He isn\'t used to-->
+<!--            real combat at the moment, meaning that he may struggle to keep himself together at the-->
+<!--            sight of something as mild as spilt innards at first. As there may be those with violent-->
+<!--            tendencies among your crew, we recommend taking an approach focused on positive-->
+<!--            reinforcement with this sinner. He appears to possess a murderous gaze that he himself-->
+<!--            isn\'t aware of; this is a hopeful sign that he has the potential to grow into an expert-->
+<!--            of our company\'s profession with the right stimuli.</item>-->
+<!--        <item>This sinner could serve as an excellent advisor depending on your capability. However,-->
+<!--            she also has a meddlesome tendency, so it is recommended to keep her satisfied with-->
+<!--            short replies of agreement. She is an expert when it comes to tactics and various pearls-->
+<!--            of wisdom about life, making her advice all the more valuable for your mission.-->
+<!--            In addition, she possesses a vast knowledge of workshop technologies; you could trust-->
+<!--            her with simple repairs of the bus.-->
+<!--            [NOTICE]: Unlike the other sinners, accessing records pertaining to the past of this-->
+<!--            sinner is not permitted.-->
+<!--            [WARNING]: Keep an eye on this sinner and beware that she does not exercise her cunning-->
+<!--            intellect for purposes other than completing our company\'s mission.</item>-->
+<!--        <item>This sinner is relatively easy to handle in terms of personality. However, an upsurge-->
+<!--            of emotion or a sudden change of environment may cause parts or the whole of his body to-->
+<!--            transform into insectile (notably akin to a carapace, resembling that of the _________)-->
+<!--            tissues. If you do not wish to be a rude manager (not that you\'re obligated to be nice),-->
+<!--            we recommend keeping your facial expression in check so that your disgust is not visible-->
+<!--            to him. He sometimes uses cynical language, but he can still be reasoned with, and you-->
+<!--            can get around him without much difficulty as long as you learn the knack of it.</item>-->
+<!--    </string-array>-->
 
     <integer-array name="sinners_photo">
         <item>@drawable/yisang_wide</item>

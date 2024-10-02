@@ -7,5 +7,6 @@ import kotlinx.parcelize.Parcelize
 data class Sinners(
     val name: String,
     val quote: String,
+    val assessment: String,
     val photoWide: Int
 ) : Parcelable
